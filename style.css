@@ -155,7 +155,7 @@ img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008bba6b;
+    background-color: #ae279c;
 }
 
 .container {
@@ -215,7 +215,7 @@ img {
 /* Style the links inside the navigation bar */
 .years a {
     float: left;
-    background-color: #6fe2b8;
+    background-color: #45bfcd;
     color: #f2f2f2;
     text-align: center;
     padding: 2px 3%;
@@ -225,13 +225,13 @@ img {
 
 /* Change the color of links on hover */
 .years a:hover {
-    background-color: #ddd;
+    background-color: #ae279c;
     color: black;
 }
 
 /* Add a color to the active/current link */
 .years a.active {
-    background-color: #04AA6D;
+    background-color: #ae279c;
     color: white;
 
 }
@@ -295,7 +295,7 @@ img {
 .popup {
     margin-top: 20px;
     text-align: center;
-    background-color: #6fe2b8;
+    background-color: #45bfcd;
     z-index: 310;
 }
 
@@ -363,7 +363,7 @@ img {
 .footer {
     width: 100%;
     height: 180px;
-    background-color: #6fe2b8;
+    background-color: #45bfcd;
     position: relative;
     left: 0;
     bottom: 0;
@@ -429,7 +429,7 @@ img {
     }
 
     .nav .current {
-        background-color: #1b8a61;
+        background-color: #ae279c;
 
 
     }
@@ -472,7 +472,7 @@ img {
         width: 10%;
         margin: 5px;
         float: left;
-        background-color: #6fe2b8;
+        background-color: #45bfcd;
         color: white;
         text-align: center;
         padding: 15px;
@@ -482,13 +482,13 @@ img {
     }
 
     .pages a:hover {
-        background-color: #ddd;
-        color: black;
+        background-color: #ae279c;
+        color: white;
     }
 
     /* Add a color to the active/current link */
     .pages a.active {
-        background-color: #04AA6D;
+        background-color: #ae279c;
         color: white;
 
     }
