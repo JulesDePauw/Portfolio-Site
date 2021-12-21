@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juke-Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=home>
+
+    <div class="topnav">
+
+        <div class="nav">
+
+            <div class="pages">
+                <div class="logo">
+                    <img src="images/Logo_juke.png">
+                </div>
+                <a class="current" href="home.html"> Home</a>
+                <a href="Projects.html"> Projects</a>
+                <a href="Timeline.html"> Timeline</a>
+                <a href="about-me.html"> About Me</a>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="Facebook">
+                <a href="https://www.facebook.com/julesdp1999" target="_blank">
+                    <img src="images/socials/Facebook.png"></a>
+
+            </div>
+            <div class="Linkedin">
+                <a href="https://www.linkedin.com/in/jules-de-pauw-4ba3a3199/" target="_blank">
+                    <img src="images/socials/LinkedIn.png"></a>
+            </div>
+            <div class="Insta">
+                <a href="https://www.instagram.com/juke_one/" target="_blank">
+                    <img src="images/socials/insta.png"></a>
+            </div>
+            <div class="youtube">
+                <a href="https://www.youtube.com/channel/UCCYdHvaNVeksb_263Qz4Y-A" target="_blank">
+                    <img src="images/socials/youtube.png"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="burgerContainer">
+        <div class="burger">
+            <div class="logo">
+                <img src="images/Logo_juke.png">
+            </div>
+            <a href="#home" class="active"><img src="" alt=""></a>
+            <div id="myLinks">
+                <div class="popup">
+                    <a class="current" href="home.html"> Home</a>
+                    <a href="Projects.html"> Projects</a>
+                    <a href="Timeline.html"> Timeline</a>
+                    <a href="about-me.html"> About Me</a>
+                    <div class="burgerSocials">
+
+                        <a href="https://www.facebook.com/julesdp1999" target="_blank">
+                            <img src="images/socials/Facebook.png"></a>
+
+
+                        <a href="https://www.linkedin.com/in/jules-de-pauw-4ba3a3199/" target="_blank">
+                            <img src="images/socials/LinkedIn.png"></a>
+
+                        <a href="https://www.instagram.com/juke_one/" target="_blank">
+                            <img src="images/socials/insta.png"></a>
+
+                        <a href="https://www.youtube.com/channel/UCCYdHvaNVeksb_263Qz4Y-A" target="_blank">
+                            <img src="images/socials/youtube.png"></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <div class=burgerIcon>
+                    <img src="images/burger.png" alt="">
+                </div>
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
