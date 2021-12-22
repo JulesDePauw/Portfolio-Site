@@ -378,6 +378,19 @@ img {
 
 }
 
+.footer2 {
+    width: 100%;
+    height: 180px;
+    background-color: #45bfcd;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+
+
+}
+
 .contact {
     text-align: center;
     margin: 20px;
