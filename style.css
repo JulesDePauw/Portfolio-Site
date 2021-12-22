@@ -26,11 +26,12 @@ body {
 }
 
 .aboutMe {
-    float: left;
+
     padding-top: 20px;
     width: 100%;
     height: 500px;
     text-align: justify;
+    position: relative;
 
 
 }
@@ -58,6 +59,8 @@ img {
     text-align: left;
 }
 
+
+
 .left h1 {
     float: left;
 
@@ -80,12 +83,9 @@ img {
 }
 
 
-.tekstblock {
+.tekstblockR {
     float: left;
-    background-color: blue;
-    width: calc(100% - 600px);
-    margin: 0 20px 0 20px;
-
+    width: 100%;
 }
 
 .Projects img {
@@ -110,10 +110,15 @@ img {
 
 }
 
+.galleryR {
+    width: 100%;
+}
+
 .galleryR img {
+
     width: 30%;
     padding-top: 10px;
-    padding-Left: 2.5%;
+    padding-Left: 2, 5%;
 
 
 
@@ -364,7 +369,7 @@ img {
     width: 100%;
     height: 180px;
     background-color: #45bfcd;
-    position: relative;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -377,6 +382,8 @@ img {
     text-align: center;
     margin: 20px;
 }
+
+
 
 .socialsFooter img {
     text-align: center;
@@ -458,10 +465,9 @@ img {
         left: 0;
 
         width: 85%;
-        height: 100px;
+        height: 50px;
         overflow: hidden;
 
-        z-index: 200;
 
     }
 
@@ -580,16 +586,10 @@ img {
         text-decoration: none;
     }
 
-    .button {
-        margin: 5px;
-        float: left;
-        height: 45px;
-        width: 200px;
-        background-color: blue;
-    }
+
 
     .column {
-        flex: 30%;
+        flex: 24%;
 
     }
 }
@@ -597,6 +597,19 @@ img {
 @media (min-width: 1024px) {
     html {
         scroll-padding: 140px;
+    }
+
+    .nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+
+        width: 85%;
+        height: 100px;
+
+
     }
 
     .logo {
@@ -635,8 +648,5 @@ img {
 
 
 
-    .column {
-        flex: 24%;
 
-    }
 }
